@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+   bottom: 0;
+   top: 0;
+  
+}
+.header{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/images/baranti.webp);
+  background-blend-mode: color-burn;
+  max-height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px 20px;
+    color: white;
+    position: relative;
+  }
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+ nav ul{
+    display: flex;
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.904);
+    gap: 25px;
+    font-size: 1.5rem;
+    margin-right: 20px;
+  }  
+  nav ul a{
+    text-decoration: none;
+    color: white;
+  }
+  nav ul a:hover{
+    color: goldenrod;
+  }
+ .main_content{
+    margin-top: 100px;
+    margin-left: 120px;
+    margin-bottom: 70px
+
+  }
+.main_content p{
+    color: rgb(14, 11, 11);
+    font-size: 1.5rem;
+}
+.main_content h1{
+    font-size: 5rem;
+}
+ .content_align{
+    display: flex;
+    justify-content: space-between;
+ }
+.content_align button{
+    margin-top: 290px;
+    margin-right: 90px;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    color: black;
+    background-color: goldenrod;
+    cursor: pointer;
+    border: none;
+}
+.content_align button:hover{
+    background-color: transparent;
+}
+
+.big-box{
+  width: 1200px;
+  height: 650px;
+  border: 1px solid gray;
+  margin-left: 90px;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 3px 3px gray;
+  margin-bottom: 20px;
+}
+.title{
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 2px 2px gray;
+  margin-bottom: 25px;
+  margin-top: 40px;
+}
+ 
+.abt_head{
+  text-align: center;
+  font-size: 25px;
+}
+.text-area{
+  display: flex;
+  margin-left: 50px;
+}
+.text-area p{
+  margin-left: 90px;
+  margin-right: 90px;
+  word-spacing: 2px;
+  line-height: 120%;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.text-area img{
+  align-items: left;
+  width: 480px;
+  height: 480px;
+  margin-top: 30px;
+ margin-left: 140px;
+}
+.big-box a{
+  text-decoration: none;
+  color: darkred;
+}
+.text-area p button{
+  margin-top: 20px;
+    margin-right: 90px;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    color: black;
+    background-color: goldenrod;
+    cursor: pointer;
+    border: none;
+}
+
+.text-area p button:hover{
+  background-color: transparent;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  height: 90%;
+  border-radius: 5px;
+  margin-left: 160px;
+}
+
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img{
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+}
+
+.card .card-contents{
+  margin-left: 10px;
+  margin-right: 20px;
+  font-size: 1rem;
+  word-spacing: 3px;
+}
+
+.card .card-contents button{
+    margin-left: 90px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    color: black;
+    background-color: goldenrod;
+    cursor: pointer;
+    border: none;
+  margin-bottom: 20px;
+}
+
+.card .card-contents button:hover{
+  background-color: transparent;
+}
+
+.card-contents h5{
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.no-of-cards{
+  display: flex;
+}
